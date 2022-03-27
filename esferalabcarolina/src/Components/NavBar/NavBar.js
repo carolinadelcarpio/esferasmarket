@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.css';
 import CartWidget from "../CartWidget";
 const   NavBar = () =>{
     return(
