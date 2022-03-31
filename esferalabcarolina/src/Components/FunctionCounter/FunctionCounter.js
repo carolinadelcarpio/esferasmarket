@@ -25,7 +25,7 @@ const FunctionCounter = (props) => {
         <div>
             <button onClick={decrement}>-</button>
             <p>{count}</p>
-            <button onClick= {increment.count<stock}>+</button>
+            <button onClick= {increment}>+</button>
         </div>
     )
 }

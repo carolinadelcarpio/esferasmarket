@@ -1,28 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import NavBar from './Components/NavBar/NavBar';
-import AppContainer from './Components/ItemListContainer';
-import FunctionCounter from './Components/FunctionCounter.js/FunctionCounter';
+import AppContainer from './Components/ItemListContainer/ItemListContainer';
+import FunctionCounter from './Components/FunctionCounter/FunctionCounter';
 
 function App() {
   return (
     <div className="App">
       <FunctionCounter initial={1}/>
       <React.StrictMode>
-      <NavBar/>
+      <NavBar />
       </React.StrictMode>
+      <AppContainer />
       {<header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a>
           ESFERA LABS - Laboratorio 3D
         </a>
       </header>}
